@@ -123,7 +123,7 @@ main{
     font-size: 1rem;
     font-weight: 500;
     color: hsl(236, 13%, 42%);
-    line-height: 25px;
+    line-height: 30px;
 }
 
 .box-right button{
@@ -135,7 +135,7 @@ main{
     border: none;
     font-weight: bold;
     color: hsl(36, 100%, 99%);
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .content-right{
