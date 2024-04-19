@@ -23,5 +23,42 @@ nav{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    padding: 10px;
 }
+
+
+.nav-left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 5%;
+}
+
+.nav-left img{
+    width: 100%;
+}
+
+.nav-right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.nav-right a{
+    font-size: 0.8rem;
+    text-decoration: none;
+    color: hsl(236, 13%, 42%) ;
+    font-weight: 500;
+    transition: 0.3s ease-in-out;
+}
+
+.nav-right a:hover{
+    cursor: pointer;
+    color: hsl(5, 85%, 63%);
+    transition: 0.3s ease-in-out;
+}
+
 
