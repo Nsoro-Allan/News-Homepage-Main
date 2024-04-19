@@ -10,13 +10,16 @@ body{
     background: hsl(36, 100%, 99%);
 }
 
+/* Main Container Starts Here  */
+
 .main-container{
     padding: 35px 80px;
-    /* margin: 10px; */
     display: flex;
     flex-direction: column;
     width: 100%;
 }
+
+/* Navbar Starts Here */
 
 nav{
     display: flex;
@@ -44,7 +47,7 @@ nav{
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 15px;
+    gap: 25px;
 }
 
 .nav-right a{
@@ -61,4 +64,66 @@ nav{
     transition: 0.3s ease-in-out;
 }
 
+/* Navbar Ends Here */
+
+/* Main Content Starts Here */
+
+main{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.content-left{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-left-img{
+    width: 100%;
+}
+
+.content-left-img img{
+    width: 100%;
+}
+
+.content-left-box{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    border: 1.5px solid black;
+    gap: 20px;
+}
+
+.box-left{
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+}
+
+.box-left h1{
+    font-size: 2.6rem;
+}
+
+.box-right{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-right{
+    width: 20%;
+}
+
+/* Main Content Ends Here */
+
+
+
+/* Main Container Ends Here  */
 
