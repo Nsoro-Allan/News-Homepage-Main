@@ -206,8 +206,8 @@ main{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    margin-top: 40px;
-    gap: 20px;
+    margin-top: 50px;
+    gap: 25px;
 }
 
 .end-content-card{
@@ -221,17 +221,39 @@ main{
 }
 
 .card-left img{
-    width: 100%;
+    width: 80%;
 }
 
 .card-right{
-    margin-left: 5px;
+    margin-left: 10px;
     display: flex;
     flex-direction: column
 }
 
 .card-right h3{
-    color: ;
+    color: hsl(233, 8%, 79%);
+    font-size: 1.8rem;
+}
+
+.card-right strong{
+    margin-top: 15px;
+}
+
+.card-right strong a{
+    text-decoration: none;
+    color: hsl(240, 100%, 5%);
+    transition: 0.3s ease-in-out;
+}
+
+.card-right strong a:hover{
+    color: hsl(5, 85%, 63%);
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.card-right small{
+    margin-top: 15px;
+    line-height: 20px;
 }
 
 /* End Content Container Ends Here */
