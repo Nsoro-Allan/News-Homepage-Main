@@ -7,4 +7,21 @@
 
 body{
     font-family: "Inter", sans-serif;
+    background: hsl(36, 100%, 99%);
 }
+
+.main-container{
+    padding: 35px 80px;
+    /* margin: 10px; */
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
