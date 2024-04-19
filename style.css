@@ -97,24 +97,31 @@ main{
     display: flex;
     flex-direction: row;
     margin-top: 10px;
-    border: 1.5px solid black;
     gap: 20px;
 }
 
 .box-left{
     display: flex;
     flex-direction: row;
-    width: 30%;
+    width: 50%;
 }
 
 .box-left h1{
-    font-size: 2.6rem;
+    font-size: 3.5rem;
+    font-weight: bolder;
 }
 
 .box-right{
-    width: 70%;
+    width: 45%;
     display: flex;
     flex-direction: column;
+    padding: 10px;
+}
+
+.box-right p{
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: hsl(236, 13%, 42%);
 }
 
 .content-right{
