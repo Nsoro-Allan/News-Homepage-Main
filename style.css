@@ -201,7 +201,37 @@ main{
 /* End Content Container Starts Here */
 
 .end-content-container{
-    
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+    gap: 20px;
+}
+
+.end-content-card{
+    display: flex;
+    flex-direction: row;
+}
+
+.card-left{
+    display: flex;
+    flex-direction: row;
+}
+
+.card-left img{
+    width: 100%;
+}
+
+.card-right{
+    margin-left: 5px;
+    display: flex;
+    flex-direction: column
+}
+
+.card-right h3{
+    color: ;
 }
 
 /* End Content Container Ends Here */
