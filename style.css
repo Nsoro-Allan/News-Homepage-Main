@@ -136,6 +136,13 @@ main{
     font-weight: bold;
     color: hsl(36, 100%, 99%);
     margin-top: 30px;
+    transition: 0.3s ease-in-out;
+}
+
+.box-right button:hover{
+    cursor: pointer;
+    background: hsl(240, 100%, 5%);
+    transition: 0.3s ease-in-out;
 }
 
 .content-right{
