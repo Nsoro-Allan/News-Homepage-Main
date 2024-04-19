@@ -85,7 +85,7 @@ main{
 }
 
 .content-left-img{
-    width: 100%;
+    width: 93%;
 }
 
 .content-left-img img{
@@ -96,33 +96,46 @@ main{
     width: 100%;
     display: flex;
     flex-direction: row;
+    /* justify-content: space-between; */
     margin-top: 10px;
-    gap: 20px;
+    gap: 10px;
 }
 
 .box-left{
     display: flex;
     flex-direction: row;
-    width: 50%;
+    width: 40%;
 }
 
 .box-left h1{
-    font-size: 3.5rem;
+    font-size: 3.2rem;
     font-weight: bolder;
 }
 
 .box-right{
-    width: 45%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     padding: 10px;
 }
 
 .box-right p{
-    font-size: 0.9rem;
+    font-size: 1rem;
     font-weight: 500;
     color: hsl(236, 13%, 42%);
-    line-height: 20px;
+    line-height: 25px;
+}
+
+.box-right button{
+    padding: 12px;
+    width: 40%;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    background: hsl(5, 85%, 63%);
+    border: none;
+    font-weight: bold;
+    color: hsl(36, 100%, 99%);
+    margin-top: 20px;
 }
 
 .content-right{
