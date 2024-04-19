@@ -146,8 +146,46 @@ main{
     display: flex;
     flex-direction: column;
     background: hsl(240, 100%, 5%);
-    color: #fff;
     padding: 20px;
+}
+
+.content-right-title{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.content-right-title h1{
+    color: hsl(35, 77%, 62%);
+}
+
+.content-right-card{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.content-right-card a{
+    color: hsl(36, 100%, 99%);
+    margin-top: 5px;
+    font-size: 0.9rem;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.3s ease-in-out;
+}
+
+.content-right-card a:hover{
+    color: hsl(35, 77%, 62%);
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.content-right-card p{
+    color: hsl(236, 13%, 42%);
+    margin-top: 10px;
+    font-size: 0.7rem;
+    font-weight: 500;
 }
 
 /* Main Content Ends Here */
