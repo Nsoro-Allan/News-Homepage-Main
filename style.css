@@ -142,7 +142,7 @@ main{
 }
 
 .content-right{
-    width: 30%;
+    width: 32%;
     display: flex;
     flex-direction: column;
     background: hsl(240, 100%, 5%);
@@ -153,6 +153,7 @@ main{
     display: flex;
     flex-direction: row;
     width: 100%;
+    margin-bottom: 10px;
 }
 
 .content-right-title h1{
@@ -163,7 +164,7 @@ main{
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 .content-right-card a{
@@ -183,14 +184,27 @@ main{
 
 .content-right-card p{
     color: hsl(236, 13%, 42%);
-    margin-top: 10px;
-    font-size: 0.7rem;
+    margin-top: 15px;
+    font-size: 0.8rem;
     font-weight: 500;
+}
+
+.line{
+    padding: 0.5px;
+    width: 100%;
+    background: hsl(236, 13%, 42%);
+    margin-top: 20px;
 }
 
 /* Main Content Ends Here */
 
+/* End Content Container Starts Here */
 
+.end-content-container{
+    
+}
+
+/* End Content Container Ends Here */
 
 /* Main Container Ends Here  */
 
