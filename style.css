@@ -147,6 +147,8 @@ main{
     flex-direction: column;
     background: hsl(240, 100%, 5%);
     padding: 20px;
+    /* height: 96.5dvh;
+    overflow-y: auto; */
 }
 
 .content-right-title{
@@ -259,4 +261,10 @@ main{
 /* End Content Container Ends Here */
 
 /* Main Container Ends Here  */
+
+/* Responsiveness Starts Here */
+@media screen and (min-width: 480px){
+
+}
+/* Responsiveness Ends Here */
 
