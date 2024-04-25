@@ -61,6 +61,10 @@ nav{
     transition: 0.3s ease-in-out;
 }
 
+.menu{
+    display: none;
+}
+
 /* Navbar Ends Here */
 
 /* Main Content Starts Here */
@@ -263,7 +267,46 @@ main{
 /* Main Container Ends Here  */
 
 /* Responsiveness Starts Here */
-@media screen and (min-width: 480px){
+@media screen and (min-width: 240px) and (max-width: 1000px){
+
+.main-container{
+    padding: 15px;
+}
+.nav-left{
+    width: 12%;
+}
+
+.nav-right{
+    display: none;
+}
+
+.menu{
+    display: block;
+}
+
+main{
+    flex-direction: column;
+}
+
+.content-left{
+    width: 100%;
+}
+
+.content-left-box{
+    flex-direction: column;
+}
+
+.box-left{
+    width: 100%;
+}
+
+.box-right{
+    width: 100%;
+}
+
+.content-right{
+    width: 100%;
+}
 
 }
 /* Responsiveness Ends Here */
