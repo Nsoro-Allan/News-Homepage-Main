@@ -227,7 +227,9 @@ main{
 }
 
 .card-left img{
-    width: 80%;
+    max-width: 70%;
+    min-width: 70%;
+    /* width: 80%; */
 }
 
 .card-right{
@@ -320,6 +322,11 @@ main{
 
 .end-content-card{
     width: 100%;
+}
+
+.card-left img{
+    max-width: 70%;
+    min-width: 70%;
 }
 
 }
