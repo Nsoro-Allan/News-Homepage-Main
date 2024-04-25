@@ -318,6 +318,10 @@ main{
     gap: 25px;
 }
 
+.end-content-card{
+    width: 100%;
+}
+
 }
 /* Responsiveness Ends Here */
 
