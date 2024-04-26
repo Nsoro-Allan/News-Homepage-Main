@@ -47,6 +47,10 @@ nav{
     gap: 25px;
 }
 
+.nav-right img{
+    display: none;
+}
+
 .nav-right a{
     font-size: 0.8rem;
     text-decoration: none;
@@ -286,7 +290,30 @@ nav{
 }
 
 .nav-right{
-    display: none;
+    /* display: none; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 25px;
+    background: #fff;
+    height: 100dvh;
+    position: fixed;
+    width: 70%;
+    top: 0;
+    right: 0;
+    bottom: 1;
+    padding-top: 50px;
+}
+
+.nav-right a{
+    font-size: 1.1rem;
+}
+
+.nav-right img{
+    display: block;
+    margin-left: 80%;
+    margin-bottom: 50px;
 }
 
 .menu{
