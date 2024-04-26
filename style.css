@@ -86,6 +86,11 @@ main{
 
 .content-left-img{
     width: 100%;
+    background-image: url(./assets/images/image-web-3-desktop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 55dvh;
 }
 
 .content-left-img img{
@@ -151,8 +156,6 @@ main{
     flex-direction: column;
     background: hsl(240, 100%, 5%);
     padding: 20px;
-    /* height: 96.5dvh;
-    overflow-y: auto; */
 }
 
 .content-right-title{
@@ -229,7 +232,6 @@ main{
 .card-left img{
     max-width: 80%;
     min-width: 80%;
-    /* width: 80%; */
 }
 
 .card-right{
@@ -274,6 +276,11 @@ main{
 .main-container{
     padding: 15px;
 }
+
+nav{
+    padding: 2px;
+}
+
 .nav-left{
     width: 12%;
 }
@@ -327,6 +334,11 @@ main{
 .card-left img{
     max-width: 70%;
     min-width: 70%;
+}
+
+.content-left-img{
+    background-image: url(./assets/images/image-web-3-mobile.jpg);
+    height: 30dvh;
 }
 
 }
