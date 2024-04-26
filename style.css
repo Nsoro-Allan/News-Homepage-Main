@@ -308,9 +308,11 @@ nav{
 
 .nav-right a{
     font-size: 1.1rem;
+    margin-top: 10px;
 }
 
 .nav-right img{
+    width: 8%;
     display: block;
     margin-left: 75%;
     margin-bottom: 50px;
